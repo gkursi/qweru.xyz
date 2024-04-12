@@ -2,13 +2,14 @@
 
 :root {
   /* style */
-  --bg: #484044;
-  --bg2: #5b5958;
+  --bg: #312c2e;
+  --bg2: #3e3a38;
   --accent: rgb(232, 137, 194);
   --accent2: #a941a7;
   /* size (TODO: add media flags) */
   --content-offset-left: 20px;
   --content-offset-top: 20px;
+  --content-width: 200px;
 }
 
 body {
@@ -50,7 +51,10 @@ body {
 }
 
 .container-section {
+  width: var(--content-width);
   position: relative;
   top: var(--content-offset-top);
   left: var(--content-offset-left);
+  margin: 10px;
+  padding: 10px;
 }

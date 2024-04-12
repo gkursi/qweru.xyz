@@ -1,9 +1,48 @@
+/* TODO: remove unused classes */
+
 :root {
-  --bg: #FFE9F3;
-  --bg2: #FFBF81;
-  --accent: #F15BB5;
-  --accent2: #5941A9;
-  --blend: #A8F9FF; /* idek */
+  --bg: #484044;
+  --bg2: #5b5958;
+  --accent: rgb(232, 137, 194);
+  --accent2: #a941a7;
 }
 
+body {
+  background-color: var(--accent);
+}
 
+.bg {
+  background-color: var(--bg);
+}
+
+.element-bg {
+  background-color: var(--bg2);
+}
+
+.box {
+  border: 2px solid var(--accent);
+}
+
+.box-r-5 {
+  border-radius: 5px;
+}
+
+.box-r-10 {
+  border-radius: 10px;
+}
+
+.container-top {
+  position: absolute;
+  width: 98%;
+  height: 98%;
+  top: 1%;
+  left: 1%;
+  background-color: var(--bg);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 20px;
+}
+
+.container-section {
+  position: relative;
+}

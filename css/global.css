@@ -56,7 +56,7 @@ body {
 }
 
 .container-section {
-  width: var(--content-width);
+  /* width: var(--content-width); */
   position: relative;
   top: var(--content-offset-top);
   left: var(--content-offset-left);
@@ -103,4 +103,8 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: italic;
+}
+
+.content-offset {
+  margin: 5px;
 }

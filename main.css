@@ -32,7 +32,7 @@ body {
     width: var(--width);
     height: var(--height);
     border-radius: 10px;
-    border: 2px solid red;
+    border: 2px solid rgb(212, 48, 48);
     background: rgb(40,44,45);
     background: -moz-linear-gradient(90deg, rgba(40,44,45,0.4) 0%, rgba(30,5,50,0.4) 50%, rgba(10,4,62,0.4) 100%);
     background: -webkit-linear-gradient(90deg, rgba(40,44,45,0.4) 0%, rgba(30,5,50,0.4) 50%, rgba(10,4,62,0.4) 100%);

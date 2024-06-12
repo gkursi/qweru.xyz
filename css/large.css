@@ -1,13 +1,19 @@
 :root {
     --width: 800px;
-    --height: 600px;
-    --width-hover: 810px;
-    --height-hover: 610px;
+    --height: 640px;
+    --width-hover: 820px;
+    --height-hover: 660px;
     --max-image-w: 180px;
     --max-image-h: 120px;
     --max-image-w-hover: 185px;
     --max-image-h-hover: 125px;
+
+    --cols-per-row: 3;
 }
+
+/* * {
+    border: 1px solid red !important;
+} */
 
 body {
     overflow: hidden !important;
@@ -18,9 +24,9 @@ body {
     color: antiquewhite;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
-    font-size: 27px;
+    font-size: 24px;
 }
 
 .container {
@@ -69,10 +75,132 @@ body {
     transition: all 0.4s;
 }
 
+.txt {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.muted-txt {
+    color: #6b6461;
+    font-style: italic;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+}
+
+.subtitle {
+    font-size: 27px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.buttons {
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.button {
+    border: 1px solid #fabd2f;
+    border-radius: 10px;
+    background-color: #3c3836;
+    padding: 10px;
+    color: antiquewhite;
+    font-size: 17;
+    width: 195px;
+    height: 40px;
+    transition: all 0.4s;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.button:hover {
+    /* width: 190px;
+    height: 45px; */
+    background-color: #4b4643;
+    transition: all 0.4s;
+}
+
+hr {
+    border-color: #cc241d;
+}
+
+.button:active {
+    background-color: #58524f;
+}
+
+.inner:hover > .buttons > a> .button {
+    width: 200px; /* this somehow works lmao */
+    height: 45px;
+}
+
 /* .inner:hover > .pfp {
     max-width: var(--max-image-w-hover);
     max-height: var(--max-image-h-hover);
     transition: all 0.4s;
+} */
+
+.list {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    overflow-x: hidden;
+    scrollbar-color: #cc241d #3c3836;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
+
+.inner:hover > .list {
+    overflow-y: scroll;
+}
+
+
+/* .list > *::before {
+    content: "      ";
+} */
+
+.list-element {
+    /* display: flex; */
+    width: 760px;
+    height: 480px;
+    border: 2px solid #8ec07c;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #58524f;
+    position: relative;
+}
+
+.list-element-footer {
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.icon {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 5px;
+    transition: all 0.5s;
+    color: antiquewhite;
+}
+
+.back-btn {
+    margin-top: 40px;
+}
+
+
+/* .inner:hover > .buttons > a> .back-btn {
+
 } */
 
 @media only screen and (max-width: 400px) {

@@ -1,0 +1,121 @@
+le magic search: https://grep.app/search?q=_API_KEY%20%3D%20%22&filter[path][0]=src/
+
+api keys from gh
+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 (openai)
+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 (openai)
+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 (openai)
+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 (openai)
+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 (openai)
+f1edac4b-ec66-4999-8e04-2db6b4d41498 (pinecone)
+96295ff3-3514-4a52-b6b5-87909dcf3a32 (pinecone)
+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 (huggingface)
+sk-8toj6AnHN1ASCAzs65FdE8D792E749 (https://oneapi.clivia.fun/v1)
+ben18785:gjue7w0w41 (plotly username:api key)
+
+just copy paste from this point on:
+`cloudflare_global_api_key = "d3d1443e0adc9c24564c6c5676d679d47e2ca"`, // gitleaks:allow
+`CLOUDFLARE_GLOBAL_API_KEY: 674538c7ecac77d064958a04a83d9e9db068c`,    // gitleaks:allow
+`cloudflare: "0574b9f43978174cc2cb9a1068681225433c4"`,                 // gitleaks:allow
+`cloudflare_api_key = "Bu0rrK-lerk6y0Suqo1qSqlDDajOk61wZchCkje4"`, // gitleaks:allow
+`CLOUDFLARE_API_KEY: 5oK0U90ME14yU6CVxV90crvfqVlNH2wRKBwcLWDc`,    // gitleaks:allow
+`cloudflare: "oj9Yoyq0zmOyWmPPob1aoY5YSNNuJ0fbZSOURBlX"`,          // gitleaks:allow
+`CLOUDFLARE_ORIGIN_CA: v1.0-aaa334dc886f30631ba0a610-0d98ef66290d7e50aac7c27b5986c99e6f3f1084c881d8ac0eae5de1d1aa0644076ff57022069b3237d19afe60ad045f207ef2b16387ee37b749441b2ae2e9ebe5b4606e846475d4a5`,
+`CLOUDFLARE_ORIGIN_CA: v1.0-15d20c7fccb4234ac5cdd756-d5c2630d1b606535cf9320ae7456b090e0896cec64169a92fae4e931ab0f72f111b2e4ffed5b2bb40f6fba6b2214df23b188a23693d59ce3fb0d28f7e89a2206d98271b002dac695ed`,
+
+GOOGLE_URL_SHORTENER_API_KEY = "AIzaSyCBAXe-kId9UwvOQ7M2cLYR7hyCpvfdr7w"
+GOOGLE_API_KEY = "AIzaSyAx2WZYe0My0i-uGurpvraYJxO7XNbwiGs";
+Google_CSE_API_Key = "AIzaSyCFyYfbMZwNeObc_wswczgOUbRB0-c2wA0"
+Google_CSE_ID = "teemo-1487466194614"
+GOOGLE_BAZAAR_API_KEY =  "AIzaSyBi2p_EhhshOu_izNy2pMR5HVuOGPSZqTA"
+GOOGLE_API_KEY = "AIzaSyCSz1uxGrHXsEktm7O3_wv-uLGpC9BvXR8";
+GOOGLE_API_KEY = "AIzaSyAtIibgU4boIyzkgbabBCe8BJJsBSfNlWA";
+
+INNERTUBE_ANDROID_API_KEY = "AIzaSyA8eiZmM1FaDVjRy-df2KTyQ_vz_yYM39w";
+INNERTUBE_TV_API_KEY = "AIzaSyD-L7DIyuMgBk-B4DYmjJZ5UG-D6Y-vkMc";
+INNERTUBE_MUSIC_API_KEY = "AIzaSyC9XL3ZjWddXya6X74dJoCTL-WEYFDNX30";
+INNERTUBE_API_KEY = "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8";
+INNERTUBE_API_KEY = "AIzaSyD9SzQFnmOn08ESZC-7gIhnHWVn0asfrKQ"
+
+FIREBASE_DYNAMIC_LINK_API_KEY = "AIzaSyAuVJ0zfUmacDG5Vie4Jl7_ercv6gSwebc"
+FIREBASE_API_KEY = "AIzaSyCU00GBJ4BPSK5owyaXvHZIXwMJ5Rq5F8c"
+FIREBASE_FUNCTION_BASE_PATH = "https://us-central1-mangamoapp1.cloudfunctions.net/api"
+FIRESTORE_API_BASE_PATH = "https://firestore.googleapis.com/v1/projects/mangamoapp1/databases/(default)/documents"
+
+POSTHOG_API_KEY = phc_PHQDA5KwztijnSojsxJ2c1DuJd52QCzJzT2xnSGvjN2
+POSTHOG_API_KEY = "phc_P9SpSeypyPwxrMdFn2edOOEooQioF2axppyEeDwtMSP"
+posthog.project_api_key = "phc_YeUxaojbKk5KPi8hNlx1bBKHzuZ4FDtl67kH1blv8Bh"
+
+GIPHY_API_KEY = "Oxp1XWdrjdIVi2NUSD93h4HTuVpmIOAy";
+PIXABAY_API_KEY = "14234762-6301dcca06f491e77f115de8e";
+UNSPLASH_API_KEY = "3135681ed1e271e3d3d167e184aecfb0ad74d2043f6f378bf19a23a6647954d8";
+PEXELS_API_KEY = "563492ad6f9170000100000172ccefc96f674d01869ba24acc62a573";
+TRAKT_API_KEY = "6e9904413059e7d847bbd28f0d71da1ad36d1588";
+TMDB_API_KEY = "f413bc4bacac8dff174a909f8ef535ae";
+heroku_api_key = "832d2129-a846-4e27-99f4-7004b6ad53ef"
+KIBANA_API_KEY = "DR6CzXkBDf8amV_48yYX:x3YqU_rqQwm-ESrkExcnOg"
+NODE_API_KEY = "DR6CzXkBDf8amV_48yYX:4BhUk-mkFm-AwvRFg90KJ"
+SA_TW_API_KEY = "B7jjLOiqkRALpJVYuBZIYFJlV"
+SA_TW_API_SECRET = "oIt7nw2aZfR2Q3UuA7wisopZVka2nj5BEgVe8G8rM6cdRBejCS"
+MSFT_CV_API_KEY =  "d3f0dc5cce724c3a99ce7c98651d6340"
+FOFA_USER_EMAIL = "2602587051@qq.com"
+FOFA_API_KEY = "3d62b3a9379464399d7fd0d7cfce9320"
+SHODAN_API_KEY = "ugzKocaJMch22p8ywabAlGQWLCYxYTde"
+WSC_API_KEY = "7WhiEBzijpritypp8bqcU7pfU9uicDR"
+weather_api_key = "fbc9549d91a5e4b26c15be0dbdac3460"
+bda_app_id = "7972313"
+bda_api_key = "ZrjLfF5Rh7pOL66gaOmDGnXn"
+bda_secret_key = "16bac9645093ca2632ebb81015ff7544"
+url = "https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=ZrjLfF5Rh7pOL66gaOmDGnXn&client_secret=16bac9645093ca2632ebb81015ff7544"
+_URL_TOKEN = "https://www.tf1.fr/token/gigya/web"
+_API_KEY = "3_hWgJdARhz_7l1oOp3a8BDLoR9cuWZpUaKG4aqF7gum9_iK3uTZ2VlDBl8ANf8FVk"
+_AUTH_URL = "https://www.raiplay.it/raisso/login/domain/app/social"
+_DOMAIN_API_KEY = "arSgRtwasD324SaA"
+ABRP_API_KEY = "8cfc314b-03cd-4efe-ab7d-4431cd8f2e2d";
+HACKEREARTH_API_KEY = "0a7f0101e5cc06e4417a3addeb76164680ac83a4
+boxcar_api_key = "puSd2qp2gCDZO7nWkvb9";
+boxcar_api_secret = "wLQQKSyGybIOkggbiKipefeYGLni9B3FPZabopHp";
+Bing_API_Key = "7fe1cecac425447389c0d3effb73c4f7"
+FOFA_USER_EMAIL = "bit4woo@163.com"
+FOFA_API_KEY = "4c428ccbf09eeb05590ab842f24c45dd" 
+SHODAN_API_KEY = "mvqpLKKMMlkyYHUnzVviD0M0C158UV5L"
+Censys_API_UID = "fae24d14-fe2a-4e7f-79xx-82f123095908" #just a example
+Censys_API_SECRET = "n2MjIKS0RIxdEDQAHRutXz6WDz2yBWBQ"
+Whoxy_API_KEY = "43cayya89cb2c3xxxr3d125e2d80de322"
+SEGMENT_DEV_API_KEY = "D3DUZ3lBSDO3krnuIO7eYDdtlDAjooKW" // ggignore
+SEGMENT_PROD_API_KEY = "b6ovUD9A0YjQqT3ZWetWUbuZ9OmGxKMa" // ggignore
+MAILCHIMP_API_KEY = "717d0854ed20fed3be3689a3f125915c-us17"
+MAILCHIMP_DATA_CENTER = "us17"
+MAILCHIMP_EMAIL_LIST_ID = "e2ef12efee"
+LASTFM_API_KEY = "0bec3f7ec1f914d7c960c12a916c8fb3"
+CURSEFORGE_CORE_API_KEY = "$2a$10$.7CSxLm/lnj5lCBSM5jGQ.3SICSX4j9r661AgoB1Rc4Nw8jCMKcv2"
+RIOT_API_KEY = "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z"
+TUMBLR_API_KEY = "JFNLu3CbINQjRdUvZibXW9VpSEVYYtiPJ86o8YmvgLZIoKyuNX"
+APP_PACKAGE = "com.oceanwing.battery.cam";
+APP_ID = "1:348804314802:android:440a6773b3620da7";
+APP_SENDER_ID = "348804314802";
+APP_CERT_SHA1 = "F051262F9F99B638F3C76DE349830638555B4A0A";
+FCM_PROJECT_ID = "batterycam-3250a";
+GOOGLE_API_KEY = "AIzaSyCSz1uxGrHXsEktm7O3_wv-uLGpC9BvXR8";
+LASTFM_API_KEY = "e1db9fda381dea473df994bc26dfa1f1";
+LASTFM_SHARED_SECRET = "c768156553c34c00b75934396f11405d";
+ETHERSCAN_API_KEY = "R796P9T31MEA24P8FNDZBCA88UHW8YCNVW"
+INFURA_PROJECT_ID = "529cca6c4c9d4dfb99464c92f4a25689"
+AMPLITUDE_API_KEY = "714b112a57c633f7488b2910efcb103f"
+INTUIT_API_KEY = "prdakyrespQBtEtvaclVBEgFGm7NQflbRaCHRhAy"
+ETHERSCAN_API_KEY = "RQW7FJGXRBIHPM5EYQSVPY96Q2EV2Q9RR2";
+FACEBOOK_ACCESS_TOKEN = "350685531728|62f8ce9f74b12f84c123cc23437a4a32";
+FACEBOOK_API_KEY = "882a8490361da98702bf97a021ddc14d";
+FACEBOOK_BLOKS_VERSION = "fcb188fb4c97a862b85d875824832dd3e42ead2a17102661b4bed0825f260514";
+BITLY_API_KEY = "R_787e723dc060169b3bfde946beef129a"
+BAM_SDK_CONFIG_URL = "https://bam-sdk-configs.bamgrid.com/bam-sdk/v2.0/espn-a9b93989/browser/v3.4/linux/chrome/prod.json";
+BAM_SDK_API_KEY = "ZXNwbiZicm93c2VyJjEuMC4w.ptUt7QxsteaRruuPmGZFaJByOoqKvDP2a5YkInHrc7c";
+client_id     = "ElxOneApp"
+client_secret = "8UKrsKD7jH9zvTV7rz5HeCLkit67Mmj68FvRVTlYygwJYy4dW6KF2cVLPKeWzUQUd6KJMtTifFf4NkDnjI7ZLdfnwcPtTSNtYvbP7OzEkmQD9IjhMOf5e1zeAQYtt2yN"
+x_api_key = "2AMqwEV5MqVhTKrRCyYfVF8gmKrd2rAmp7cUsfky"
+GCM_API_KEY = "AIzaSyBAU0VfXoskxUSg81K5VgLgwblHbZWe6tA";
+PUBLIC_KEY = "BNFDO1MUnNpx0SuQyQcAAWYETa2+W8z/uc5sxByf/UZLHwAhFLwEDxS5iB654KHiryq0AxDhFXS7DVqXDKjjN+8=";
+PRIVATE_KEY = "AM0aAyoIryzARADnIsSCwg1p1aWFAL3Idc8dNXpf74MH";
+TMDB_API_KEY = "bb2818a2abb39fbdf6da79343e5e376b"
+OWM_DEFAULT_API_KEY = "1b5b37a3117bb6acd583d662fdbb24c7"
+"https://crowdwise-ml-jhhom.ondigitalocean.app/api/score_documents";
+ML_API_KEY = "5b58147b-d869-465a-ab43-41c2ffc29ae0"

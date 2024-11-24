@@ -12,4 +12,12 @@ body {
 
 * {
     font-family: "Inconsolata", monospace;
+    color: #ebdbb2;
+}
+
+.box {
+    width: 400px;
+    text-wrap: wrap;
+    padding: 5px;
+    border: 1px solid #ebdbb2;
 }

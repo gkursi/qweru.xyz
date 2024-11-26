@@ -1,13 +1,23 @@
 :root {
-    --bg: rgb();
+    --box-w: 400px;
+    --blur: 1.75rem;
+    --box-blur: calc(0.5 * var(--blur));
+    --glow: #ebdbb2;
+    --size: 12rem;
 }
 
 body {
     width: 99vw;
-    height: 100vh;
+    height: 99vh;
     background-color: #282828;
+    background-image: url("https://gruvbox-wallpapers.pages.dev/wallpapers/minimalistic/gruv-abstract-maze.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* backdrop-filter: blur(10px); */
     color: #ebdbb2;
-    margin: 1vw;
+    margin-left: 1vw;
+    margin-top: 1vh;
+    /* transition: 1s backdrop-filter; */
 }
 
 * {
@@ -20,26 +30,45 @@ p {
 }
 
 .box {
-    width: 400px;
+    width: var(--box-w);
     text-wrap: wrap;
     padding: 5px;
     border: 1px solid #ebdbb2;
+    /* -webkit-box-shadow:0px 0px 17px 3px rgba(235,219,178,0.49);
+    -moz-box-shadow: 0px 0px 17px 3px rgba(235,219,178,0.49);
+    box-shadow: 0px 0px 17px 3px rgba(235,219,178,0.49); */
 }
 
 .box-green {
     border: 1px solid #b8bb26;
+    background-color: color-mix(in srgb, #b8bb26, transparent 66%);
+    /* -webkit-box-shadow:0px 0px 17px 3px color-mix(in srgb, #b8bb26, transparent 49%);
+    -moz-box-shadow: 0px 0px 17px 3px color-mix(in srgb, #b8bb26, transparent 49%);
+    box-shadow: 0px 0px 17px 3px color-mix(in srgb, #b8bb26, transparent 49%); */
 }
 
 .box-yellow {
     border: 1px solid #fabd2f;
+    background-color: color-mix(in srgb, #fabd2f, transparent 66%);
+    /* -webkit-box-shadow:0px 0px 17px 3px color-mix(in srgb, #fabd2f, transparent 49%);
+    -moz-box-shadow: 0px 0px 17px 3px color-mix(in srgb, #fabd2f, transparent 49%);
+    box-shadow: 0px 0px 17px 3px color-mix(in srgb, #fabd2f, transparent 49%); */
 }
 
 .box-red {
     border: 1px solid #fb4934;
+    background-color: color-mix(in srgb, #fb4934, transparent 66%);
+    /* -webkit-box-shadow:0px 0px 17px 3px color-mix(in srgb, #fb4934, transparent 49%);
+    -moz-box-shadow: 0px 0px 17px 3px color-mix(in srgb, #fb4934, transparent 49%);
+    box-shadow: 0px 0px 17px 3px color-mix(in srgb, #fb4934, transparent 49%); */
 }
 
 .box-purple {
     border: 1px solid #d3869b;
+    background-color: color-mix(in srgb, #d3869b, transparent 66%);
+    /* -webkit-box-shadow:0px 0px 17px 3px color-mix(in srgb, #d3869b, transparent 49%);
+    -moz-box-shadow: 0px 0px 17px 3px color-mix(in srgb, #d3869b, transparent 49%);
+    box-shadow: 0px 0px 17px 3px color-mix(in srgb, #d3869b, transparent 49%); */
 }
 
 .purple {
@@ -48,6 +77,10 @@ p {
 
 .box-aqua {
     border: 1px solid #8ec07c;
+    background-color: color-mix(in srgb, #8ec07c, transparent 66%);
+    /* -webkit-box-shadow:0px 0px 17px 3px color-mix(in srgb, #8ec07c, transparent 49%);
+    -moz-box-shadow: 0px 0px 17px 3px color-mix(in srgb, #8ec07c, transparent 49%);
+    box-shadow: 0px 0px 17px 3px color-mix(in srgb, #8ec07c, transparent 49%); */
 }
 
 .aqua {
@@ -56,15 +89,19 @@ p {
 
 .box-blue {
     border: 1px solid #83a598;
+    background-color: color-mix(in srgb, #83a598, transparent 66%);
+    /* -webkit-box-shadow:0px 0px 17px 3px color-mix(in srgb, #83a598, transparent 49%);
+    -moz-box-shadow: 0px 0px 17px 3px color-mix(in srgb, #83a598, transparent 49%);
+    box-shadow: 0px 0px 17px 3px color-mix(in srgb, #83a598, transparent 49%); */
 }
 
 .blue {
     color: #83a598;
 }
 
-.box-last {
+/* .box-last {
     margin-bottom: 10px;
-}
+} */
 
 .green {
     color: #b8bb26;
@@ -76,4 +113,58 @@ p {
 
 .red {
     color: #fb4934;
+}
+
+#overlay {
+    opacity: 1;
+    transition: 0.6s all;
+    /* background-color: #fabd2f71; */
+    backdrop-filter: blur(16px);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    margin: -1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#overlay > * {
+    font-size: 25px;
+}
+
+#player-container {
+    position: fixed;
+    left: 50%;
+    bottom: 5px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    opacity: 0;
+    border: 1px solid #ebdbb2;
+    border-radius: 7px;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    transition: 1s all;
+    background-color: color-mix(in srgb, #282828, transparent 66%);
+    -webkit-box-shadow:0px 0px 17px 3px rgba(235,219,178,0.49);
+    -moz-box-shadow: 0px 0px 17px 3px rgba(235,219,178,0.49);
+    box-shadow: 0px 0px 17px 3px rgba(235,219,178,0.49);
+}
+
+.player-text {
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    height: 0px;
+}
+
+progress { 
+    accent-color: #d3869b;
+}
+
+@media only screen and (max-width: 400px) {
+    :root {
+        --box-w: 97vw;
+    }
 }

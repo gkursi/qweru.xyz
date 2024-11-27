@@ -1,7 +1,7 @@
 // audio player + overlay
 let audioPlayer = undefined;
 
-let songs = ["core", "core", "duet", "forest", "title"];
+let songs = ["duet", "forest", "title"];
 
 function playAudio() {
     const audioElement = new Audio("./assets/"+ songs[Math.floor(Math.random() * songs.length)] +".mp3");

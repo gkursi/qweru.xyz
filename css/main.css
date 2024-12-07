@@ -11,7 +11,7 @@ body {
     height: 99vh;
     background-color: #282828;
     background-image: url("https://w.wallhaven.cc/full/1k/wallhaven-1kqv6v.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     /* backdrop-filter: blur(10px); */
     color: #ebdbb2;

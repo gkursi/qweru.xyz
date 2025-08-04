@@ -1,200 +1,248 @@
-<?xml version="1.0" encoding="UTF-16"?>
-
-<savedhomecity version ="1">
-	<defaultdirectoryid>0</defaultdirectoryid>
-	<defaultfilename>homecityspanish.xml</defaultfilename>
-	<civ>Spanish</civ>
-	<hctype>HC</hctype>
-	<name>fake</name>
-	<heroname>:3</heroname>
-	<herodogname>:P</herodogname>
-	<shipname>ship</shipname>
-	<hcid></hcid>
-	<level>20000</level>
-	<xp>1237628185</xp>
-	<skillpoints>1999999895</skillpoints>
-	<xppercentage>100.026153</xppercentage>
-	<numpropunlocksearned>2000000000</numpropunlocksearned>
-	<decks>
-		<deck>
-			<name>fake</name>
-			<cards>
-				<card dbid ="814">HCUnlockFort</card>
-				<card dbid ="1688">HCHeavyFortifications</card>
-				<card dbid ="625">HCUnlockFactory</card>
-				<card dbid ="2096">HCAdvancedMill</card>
-				<card dbid ="2104">HCAdvancedMarket</card>
-				<card dbid ="472">HCAdvancedPlantations</card>
-				<card dbid ="1957">HCAdvancedArsenal</card>
-				<card dbid ="2208">HCShipSettlers4</card>
-				<card dbid ="2207">HCShipSettlers3</card>
-				<card dbid ="2206">HCShipSettlers2</card>
-				<card dbid ="2211">HCShipWoodCrates2</card>
-				<card dbid ="2184">HCShipFoodCrates2</card>
-				<card dbid ="2091">HCExoticHardwoods</card>
-				<card dbid ="2036">HCStonemasons</card>
-				<card dbid ="2045">HCHandCavalryCombatSpanish</card>
-				<card dbid ="2029">HCHandCavalryDamageSpanish</card>
-				<card dbid ="2028">HCHandInfantryCombatSpanish</card>
-				<card dbid ="2623">HCColonialEstancias</card>
-				<card dbid ="489">HCShipBalloons</card>
-				<card dbid ="2214">HCShipCoinCrates2</card>
-			</cards>
-		</deck>
-		<deck>
-			<name>watered fake</name>
-			<cards>
-				<card dbid ="625">HCUnlockFactory</card>
-				<card dbid ="814">HCUnlockFort</card>
-				<card dbid ="2670">HCFrontierDefenses2</card>
-				<card dbid ="2623">HCColonialEstancias</card>
-				<card dbid ="489">HCShipBalloons</card>
-				<card dbid ="2100">HCAdvancedDock</card>
-				<card dbid ="472">HCAdvancedPlantations</card>
-				<card dbid ="2096">HCAdvancedMill</card>
-				<card dbid ="1957">HCAdvancedArsenal</card>
-				<card dbid ="2029">HCHandCavalryDamageSpanish</card>
-				<card dbid ="2045">HCHandCavalryCombatSpanish</card>
-				<card dbid ="2240">HCCheapBarracksTeam</card>
-				<card dbid ="1842">HCImprovedBuildings</card>
-				<card dbid ="773">HCRoyalDecreeSpanish</card>
-				<card dbid ="2223">HCShipFrigates</card>
-				<card dbid ="2620">HCSpanishTreasureFleet</card>
-				<card dbid ="2224">HCShipMonitors</card>
-				<card dbid ="2222">HCShipGalleons</card>
-				<card dbid ="1423">HCMercsHighland</card>
-				<card dbid ="1424">HCMercsMediterranean</card>
-			</cards>
-		</deck>
-	</decks>
-	<activetechs>
-		<tech dbid ="2183">HCShipSettlers1</tech>
-		<tech dbid ="2572">HCShipFoodCrates1</tech>
-		<tech dbid ="2190">HCShipCoveredWagons</tech>
-		<tech dbid ="2206">HCShipSettlers2</tech>
-		<tech dbid ="2207">HCShipSettlers3</tech>
-		<tech dbid ="2208">HCShipSettlers4</tech>
-		<tech dbid ="2184">HCShipFoodCrates2</tech>
-		<tech dbid ="2209">HCShipFoodCrates3</tech>
-		<tech dbid ="2210">HCShipFoodCrates4</tech>
-		<tech dbid ="2268">HCShipFoodCrates5</tech>
-		<tech dbid ="2573">HCShipWoodCrates1</tech>
-		<tech dbid ="2211">HCShipWoodCrates2</tech>
-		<tech dbid ="2212">HCShipWoodCrates3</tech>
-		<tech dbid ="2213">HCShipWoodCrates4</tech>
-		<tech dbid ="2574">HCShipCoinCrates1</tech>
-		<tech dbid ="2214">HCShipCoinCrates2</tech>
-		<tech dbid ="2215">HCShipCoinCrates3</tech>
-		<tech dbid ="2218">HCShipSheep1</tech>
-		<tech dbid ="2219">HCShipSheep2</tech>
-		<tech dbid ="2220">HCShipCows</tech>
-		<tech dbid ="1849">HCExplorerSpanish</tech>
-		<tech dbid ="2511">HCExplorerCombatTeam</tech>
-		<tech dbid ="489">HCShipBalloons</tech>
-		<tech dbid ="2242">HCShipSurgeons</tech>
-		<tech dbid ="2227">HCShipPikemen1</tech>
-		<tech dbid ="2189">HCShipRodeleros1</tech>
-		<tech dbid ="2229">HCShipRodeleros2</tech>
-		<tech dbid ="2191">HCShipLancers1</tech>
-		<tech dbid ="2233">HCShipLancers2</tech>
-		<tech dbid ="2192">HCShipFalconets1</tech>
-		<tech dbid ="2237">HCShipMortars1</tech>
-		<tech dbid ="2076">HCAdvancedArtillery</tech>
-		<tech dbid ="2228">HCShipPikemen2</tech>
-		<tech dbid ="2512">HCArchaicTrainingTeam</tech>
-		<tech dbid ="2676">HCShipCrossbowmen3</tech>
-		<tech dbid ="2691">HCShipPikemen3Spanish</tech>
-		<tech dbid ="2563">HCShipPikemen4</tech>
-		<tech dbid ="2619">HCShipSpanishSquare</tech>
-		<tech dbid ="2673">HCShipPikemen5</tech>
-		<tech dbid ="2230">HCShipRodeleros3</tech>
-		<tech dbid ="2231">HCShipRodeleros4</tech>
-		<tech dbid ="2674">HCShipRodeleros5</tech>
-		<tech dbid ="1853">HCHandInfantryDamageSpanishTeam</tech>
-		<tech dbid ="2174">HCHandInfantryHitpointsSpanish</tech>
-		<tech dbid ="2028">HCHandInfantryCombatSpanish</tech>
-		<tech dbid ="2232">HCShipHussars2</tech>
-		<tech dbid ="2025">HCHandCavalryHitpointsSpanish</tech>
-		<tech dbid ="2317">HCShipHussars3</tech>
-		<tech dbid ="2029">HCHandCavalryDamageSpanish</tech>
-		<tech dbid ="2318">HCShipHussars4</tech>
-		<tech dbid ="2045">HCHandCavalryCombatSpanish</tech>
-		<tech dbid ="2234">HCShipLancers3</tech>
-		<tech dbid ="2562">HCShipLancers4</tech>
-		<tech dbid ="2622">HCCaballeros</tech>
-		<tech dbid ="2618">HCShipLancers5</tech>
-		<tech dbid ="2235">HCShipFalconets2</tech>
-		<tech dbid ="2236">HCShipFalconets3</tech>
-		<tech dbid ="2238">HCShipMortars2</tech>
-		<tech dbid ="2239">HCShipCannons1</tech>
-		<tech dbid ="2240">HCCheapBarracksTeam</tech>
-		<tech dbid ="2571">HCFrontierDefenses</tech>
-		<tech dbid ="814">HCUnlockFort</tech>
-		<tech dbid ="2568">HCNativeLore</tech>
-		<tech dbid ="881">HCNativeTreaties</tech>
-		<tech dbid ="1847">HCNativeWarriors</tech>
-		<tech dbid ="1796">HCAdvancedTradingPost</tech>
-		<tech dbid ="2037">HCFencingSchool</tech>
-		<tech dbid ="2038">HCRidingSchool</tech>
-		<tech dbid ="1993">HCPioneers</tech>
-		<tech dbid ="1992">HCColonialMilitia</tech>
-		<tech dbid ="1842">HCImprovedBuildings</tech>
-		<tech dbid ="1957">HCAdvancedArsenal</tech>
-		<tech dbid ="2670">HCFrontierDefenses2</tech>
-		<tech dbid ="2030">HCExtensiveFortifications</tech>
-		<tech dbid ="1688">HCHeavyFortifications</tech>
-		<tech dbid ="773">HCRoyalDecreeSpanish</tech>
-		<tech dbid ="1848">HCInquisition</tech>
-		<tech dbid ="472">HCAdvancedPlantations</tech>
-		<tech dbid ="2096">HCAdvancedMill</tech>
-		<tech dbid ="2104">HCAdvancedMarket</tech>
-		<tech dbid ="2100">HCAdvancedDock</tech>
-		<tech dbid ="625">HCUnlockFactory</tech>
-		<tech dbid ="2623">HCColonialEstancias</tech>
-		<tech dbid ="2101">HCRumDistillery</tech>
-		<tech dbid ="469">HCFishMarket</tech>
-		<tech dbid ="2036">HCStonemasons</tech>
-		<tech dbid ="2099">HCRenderingPlant</tech>
-		<tech dbid ="2606">HCSchooners</tech>
-		<tech dbid ="2090">HCSawmills</tech>
-		<tech dbid ="2091">HCExoticHardwoods</tech>
-		<tech dbid ="2034">HCIronmongerTeam</tech>
-		<tech dbid ="2043">HCSilversmith</tech>
-		<tech dbid ="2093">HCRoyalMint</tech>
-		<tech dbid ="2095">HCSustainableAgriculture</tech>
-		<tech dbid ="2041">HCRefrigeration</tech>
-		<tech dbid ="2607">HCStockyards</tech>
-		<tech dbid ="2032">HCFurrier</tech>
-		<tech dbid ="2098">HCSpiceTrade</tech>
-		<tech dbid ="2035">HCMedicine</tech>
-		<tech dbid ="474">HCCigarRoller</tech>
-		<tech dbid ="2102">HCTextileMills</tech>
-		<tech dbid ="2185">HCShipCaravels1</tech>
-		<tech dbid ="2221">HCShipCaravels2</tech>
-		<tech dbid ="2621">HCCoastalDefensesTeam</tech>
-		<tech dbid ="2222">HCShipGalleons</tech>
-		<tech dbid ="2596">HCSpanishGalleons</tech>
-		<tech dbid ="1812">HCArmada</tech>
-		<tech dbid ="2620">HCSpanishTreasureFleet</tech>
-		<tech dbid ="2223">HCShipFrigates</tech>
-		<tech dbid ="1081">HCAdmirality</tech>
-		<tech dbid ="2225">HCNavalCombat</tech>
-		<tech dbid ="2224">HCShipMonitors</tech>
-		<tech dbid ="2547">HCMercsSwissPikemen</tech>
-		<tech dbid ="2544">HCMercsHighlanders</tech>
-		<tech dbid ="1423">HCMercsHighland</tech>
-		<tech dbid ="2546">HCMercsStradiots</tech>
-		<tech dbid ="1424">HCMercsMediterranean</tech>
-		<tech dbid ="1425">HCMercsAsian</tech>
-		<tech dbid ="463">HCMercenaryLoyalty</tech>
-		<tech dbid ="465">HCPrivateers</tech>
-	</activetechs>
-	<activeprops>
-		<prop enabled ="1">Spanish_LightSet1</prop>
-		<prop enabled ="1">Spanish_NWTCTexture0</prop>
-		<prop enabled ="1">Spanish_AcademyTexture0</prop>
-		<prop enabled ="1">Spanish_ManuPlantTexture0</prop>
-		<prop enabled ="1">Spanish_CathedralTexture0</prop>
-		<prop enabled ="1">Spanish_DockTexture0</prop>
-	</activeprops>
+<savedhomecity version="1">
+<defaultdirectoryid>0</defaultdirectoryid>
+<defaultfilename>homecityspanish.xml</defaultfilename>
+<civ>Spanish</civ>
+<hctype>HC</hctype>
+<name>fake</name>
+<heroname>:3</heroname>
+<herodogname>:P</herodogname>
+<shipname>ship</shipname>
+<hcid/>
+<level>20000</level>
+<xp>1237646206</xp>
+<skillpoints>1999999895</skillpoints>
+<xppercentage>100.036278</xppercentage>
+<numpropunlocksearned>2000000000</numpropunlocksearned>
+<decks>
+<deck>
+<name>fake</name>
+<cards>
+<card dbid="814">HCUnlockFort</card>
+<card dbid="1688">HCHeavyFortifications</card>
+<card dbid="625">HCUnlockFactory</card>
+<card dbid="2096">HCAdvancedMill</card>
+<card dbid="2104">HCAdvancedMarket</card>
+<card dbid="472">HCAdvancedPlantations</card>
+<card dbid="1957">HCAdvancedArsenal</card>
+<card dbid="2208">HCShipSettlers4</card>
+<card dbid="2207">HCShipSettlers3</card>
+<card dbid="2206">HCShipSettlers2</card>
+<card dbid="2211">HCShipWoodCrates2</card>
+<card dbid="2184">HCShipFoodCrates2</card>
+<card dbid="2091">HCExoticHardwoods</card>
+<card dbid="2036">HCStonemasons</card>
+<card dbid="2045">HCHandCavalryCombatSpanish</card>
+<card dbid="2029">HCHandCavalryDamageSpanish</card>
+<card dbid="2028">HCHandInfantryCombatSpanish</card>
+<card dbid="2623">HCColonialEstancias</card>
+<card dbid="489">HCShipBalloons</card>
+<card dbid="2214">HCShipCoinCrates2</card>
+</cards>
+</deck>
+<deck>
+<name>watered fake</name>
+<cards>
+<card dbid="625">HCUnlockFactory</card>
+<card dbid="814">HCUnlockFort</card>
+<card dbid="2670">HCFrontierDefenses2</card>
+<card dbid="2623">HCColonialEstancias</card>
+<card dbid="489">HCShipBalloons</card>
+<card dbid="2100">HCAdvancedDock</card>
+<card dbid="472">HCAdvancedPlantations</card>
+<card dbid="2096">HCAdvancedMill</card>
+<card dbid="1957">HCAdvancedArsenal</card>
+<card dbid="2029">HCHandCavalryDamageSpanish</card>
+<card dbid="2045">HCHandCavalryCombatSpanish</card>
+<card dbid="2240">HCCheapBarracksTeam</card>
+<card dbid="1842">HCImprovedBuildings</card>
+<card dbid="773">HCRoyalDecreeSpanish</card>
+<card dbid="2223">HCShipFrigates</card>
+<card dbid="2620">HCSpanishTreasureFleet</card>
+<card dbid="2224">HCShipMonitors</card>
+<card dbid="2222">HCShipGalleons</card>
+<card dbid="1423">HCMercsHighland</card>
+<card dbid="1424">HCMercsMediterranean</card>
+</cards>
+</deck>
+<deck>
+<name>nigadeck</name>
+<cards>
+<card dbid="2190">HCShipCoveredWagons</card>
+<card dbid="2207">HCShipSettlers3</card>
+<card dbid="814">HCUnlockFort</card>
+<card dbid="625">HCUnlockFactory</card>
+<card dbid="1688">HCHeavyFortifications</card>
+<card dbid="1957">HCAdvancedArsenal</card>
+<card dbid="1992">HCColonialMilitia</card>
+<card dbid="773">HCRoyalDecreeSpanish</card>
+<card dbid="2623">HCColonialEstancias</card>
+<card dbid="2034">HCIronmongerTeam</card>
+<card dbid="2032">HCFurrier</card>
+<card dbid="2035">HCMedicine</card>
+<card dbid="2041">HCRefrigeration</card>
+<card dbid="2043">HCSilversmith</card>
+<card dbid="2093">HCRoyalMint</card>
+<card dbid="2090">HCSawmills</card>
+<card dbid="2091">HCExoticHardwoods</card>
+<card dbid="2036">HCStonemasons</card>
+<card dbid="2029">HCHandCavalryDamageSpanish</card>
+<card dbid="2215">HCShipCoinCrates3</card>
+</cards>
+</deck>
+<deck>
+<name>water nigadeck</name>
+<cards>
+<card dbid="2207">HCShipSettlers3</card>
+<card dbid="2190">HCShipCoveredWagons</card>
+<card dbid="2512">HCArchaicTrainingTeam</card>
+<card dbid="2174">HCHandInfantryHitpointsSpanish</card>
+<card dbid="2025">HCHandCavalryHitpointsSpanish</card>
+<card dbid="2318">HCShipHussars4</card>
+<card dbid="1688">HCHeavyFortifications</card>
+<card dbid="2623">HCColonialEstancias</card>
+<card dbid="625">HCUnlockFactory</card>
+<card dbid="2090">HCSawmills</card>
+<card dbid="2043">HCSilversmith</card>
+<card dbid="2034">HCIronmongerTeam</card>
+<card dbid="2041">HCRefrigeration</card>
+<card dbid="2032">HCFurrier</card>
+<card dbid="2098">HCSpiceTrade</card>
+<card dbid="2221">HCShipCaravels2</card>
+<card dbid="2621">HCCoastalDefensesTeam</card>
+<card dbid="1812">HCArmada</card>
+<card dbid="2596">HCSpanishGalleons</card>
+<card dbid="2225">HCNavalCombat</card>
+</cards>
+</deck>
+</decks>
+<activetechs>
+<tech dbid="2183">HCShipSettlers1</tech>
+<tech dbid="2572">HCShipFoodCrates1</tech>
+<tech dbid="2190">HCShipCoveredWagons</tech>
+<tech dbid="2206">HCShipSettlers2</tech>
+<tech dbid="2207">HCShipSettlers3</tech>
+<tech dbid="2208">HCShipSettlers4</tech>
+<tech dbid="2184">HCShipFoodCrates2</tech>
+<tech dbid="2209">HCShipFoodCrates3</tech>
+<tech dbid="2210">HCShipFoodCrates4</tech>
+<tech dbid="2268">HCShipFoodCrates5</tech>
+<tech dbid="2573">HCShipWoodCrates1</tech>
+<tech dbid="2211">HCShipWoodCrates2</tech>
+<tech dbid="2212">HCShipWoodCrates3</tech>
+<tech dbid="2213">HCShipWoodCrates4</tech>
+<tech dbid="2574">HCShipCoinCrates1</tech>
+<tech dbid="2214">HCShipCoinCrates2</tech>
+<tech dbid="2215">HCShipCoinCrates3</tech>
+<tech dbid="2218">HCShipSheep1</tech>
+<tech dbid="2219">HCShipSheep2</tech>
+<tech dbid="2220">HCShipCows</tech>
+<tech dbid="1849">HCExplorerSpanish</tech>
+<tech dbid="2511">HCExplorerCombatTeam</tech>
+<tech dbid="489">HCShipBalloons</tech>
+<tech dbid="2242">HCShipSurgeons</tech>
+<tech dbid="2227">HCShipPikemen1</tech>
+<tech dbid="2189">HCShipRodeleros1</tech>
+<tech dbid="2229">HCShipRodeleros2</tech>
+<tech dbid="2191">HCShipLancers1</tech>
+<tech dbid="2233">HCShipLancers2</tech>
+<tech dbid="2192">HCShipFalconets1</tech>
+<tech dbid="2237">HCShipMortars1</tech>
+<tech dbid="2076">HCAdvancedArtillery</tech>
+<tech dbid="2228">HCShipPikemen2</tech>
+<tech dbid="2512">HCArchaicTrainingTeam</tech>
+<tech dbid="2676">HCShipCrossbowmen3</tech>
+<tech dbid="2691">HCShipPikemen3Spanish</tech>
+<tech dbid="2563">HCShipPikemen4</tech>
+<tech dbid="2619">HCShipSpanishSquare</tech>
+<tech dbid="2673">HCShipPikemen5</tech>
+<tech dbid="2230">HCShipRodeleros3</tech>
+<tech dbid="2231">HCShipRodeleros4</tech>
+<tech dbid="2674">HCShipRodeleros5</tech>
+<tech dbid="1853">HCHandInfantryDamageSpanishTeam</tech>
+<tech dbid="2174">HCHandInfantryHitpointsSpanish</tech>
+<tech dbid="2028">HCHandInfantryCombatSpanish</tech>
+<tech dbid="2232">HCShipHussars2</tech>
+<tech dbid="2025">HCHandCavalryHitpointsSpanish</tech>
+<tech dbid="2317">HCShipHussars3</tech>
+<tech dbid="2029">HCHandCavalryDamageSpanish</tech>
+<tech dbid="2318">HCShipHussars4</tech>
+<tech dbid="2045">HCHandCavalryCombatSpanish</tech>
+<tech dbid="2234">HCShipLancers3</tech>
+<tech dbid="2562">HCShipLancers4</tech>
+<tech dbid="2622">HCCaballeros</tech>
+<tech dbid="2618">HCShipLancers5</tech>
+<tech dbid="2235">HCShipFalconets2</tech>
+<tech dbid="2236">HCShipFalconets3</tech>
+<tech dbid="2238">HCShipMortars2</tech>
+<tech dbid="2239">HCShipCannons1</tech>
+<tech dbid="2240">HCCheapBarracksTeam</tech>
+<tech dbid="2571">HCFrontierDefenses</tech>
+<tech dbid="814">HCUnlockFort</tech>
+<tech dbid="2568">HCNativeLore</tech>
+<tech dbid="881">HCNativeTreaties</tech>
+<tech dbid="1847">HCNativeWarriors</tech>
+<tech dbid="1796">HCAdvancedTradingPost</tech>
+<tech dbid="2037">HCFencingSchool</tech>
+<tech dbid="2038">HCRidingSchool</tech>
+<tech dbid="1993">HCPioneers</tech>
+<tech dbid="1992">HCColonialMilitia</tech>
+<tech dbid="1842">HCImprovedBuildings</tech>
+<tech dbid="1957">HCAdvancedArsenal</tech>
+<tech dbid="2670">HCFrontierDefenses2</tech>
+<tech dbid="2030">HCExtensiveFortifications</tech>
+<tech dbid="1688">HCHeavyFortifications</tech>
+<tech dbid="773">HCRoyalDecreeSpanish</tech>
+<tech dbid="1848">HCInquisition</tech>
+<tech dbid="472">HCAdvancedPlantations</tech>
+<tech dbid="2096">HCAdvancedMill</tech>
+<tech dbid="2104">HCAdvancedMarket</tech>
+<tech dbid="2100">HCAdvancedDock</tech>
+<tech dbid="625">HCUnlockFactory</tech>
+<tech dbid="2623">HCColonialEstancias</tech>
+<tech dbid="2101">HCRumDistillery</tech>
+<tech dbid="469">HCFishMarket</tech>
+<tech dbid="2036">HCStonemasons</tech>
+<tech dbid="2099">HCRenderingPlant</tech>
+<tech dbid="2606">HCSchooners</tech>
+<tech dbid="2090">HCSawmills</tech>
+<tech dbid="2091">HCExoticHardwoods</tech>
+<tech dbid="2034">HCIronmongerTeam</tech>
+<tech dbid="2043">HCSilversmith</tech>
+<tech dbid="2093">HCRoyalMint</tech>
+<tech dbid="2095">HCSustainableAgriculture</tech>
+<tech dbid="2041">HCRefrigeration</tech>
+<tech dbid="2607">HCStockyards</tech>
+<tech dbid="2032">HCFurrier</tech>
+<tech dbid="2098">HCSpiceTrade</tech>
+<tech dbid="2035">HCMedicine</tech>
+<tech dbid="474">HCCigarRoller</tech>
+<tech dbid="2102">HCTextileMills</tech>
+<tech dbid="2185">HCShipCaravels1</tech>
+<tech dbid="2221">HCShipCaravels2</tech>
+<tech dbid="2621">HCCoastalDefensesTeam</tech>
+<tech dbid="2222">HCShipGalleons</tech>
+<tech dbid="2596">HCSpanishGalleons</tech>
+<tech dbid="1812">HCArmada</tech>
+<tech dbid="2620">HCSpanishTreasureFleet</tech>
+<tech dbid="2223">HCShipFrigates</tech>
+<tech dbid="1081">HCAdmirality</tech>
+<tech dbid="2225">HCNavalCombat</tech>
+<tech dbid="2224">HCShipMonitors</tech>
+<tech dbid="2547">HCMercsSwissPikemen</tech>
+<tech dbid="2544">HCMercsHighlanders</tech>
+<tech dbid="1423">HCMercsHighland</tech>
+<tech dbid="2546">HCMercsStradiots</tech>
+<tech dbid="1424">HCMercsMediterranean</tech>
+<tech dbid="1425">HCMercsAsian</tech>
+<tech dbid="463">HCMercenaryLoyalty</tech>
+<tech dbid="465">HCPrivateers</tech>
+</activetechs>
+<activeprops>
+<prop enabled="1">Spanish_LightSet1</prop>
+<prop enabled="1">Spanish_NWTCTexture0</prop>
+<prop enabled="1">Spanish_AcademyTexture0</prop>
+<prop enabled="1">Spanish_ManuPlantTexture0</prop>
+<prop enabled="1">Spanish_CathedralTexture0</prop>
+<prop enabled="1">Spanish_DockTexture0</prop>
+</activeprops>
 </savedhomecity>

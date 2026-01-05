@@ -1,4 +1,4 @@
-le magic search: https://grep.app/search?q=_API_KEY%20%3D%20%22&filter[path][0]=src/
+magic search: https://grep.app/search?q=_API_KEY%20%3D%20%22&filter[path][0]=src/
 
 api keys from gh
 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 (openai)
@@ -76,7 +76,7 @@ boxcar_api_key = "puSd2qp2gCDZO7nWkvb9";
 boxcar_api_secret = "wLQQKSyGybIOkggbiKipefeYGLni9B3FPZabopHp";
 Bing_API_Key = "7fe1cecac425447389c0d3effb73c4f7"
 FOFA_USER_EMAIL = "bit4woo@163.com"
-FOFA_API_KEY = "4c428ccbf09eeb05590ab842f24c45dd" 
+FOFA_API_KEY = "4c428ccbf09eeb05590ab842f24c45dd"
 SHODAN_API_KEY = "mvqpLKKMMlkyYHUnzVviD0M0C158UV5L"
 Censys_API_UID = "fae24d14-fe2a-4e7f-79xx-82f123095908" #just a example
 Censys_API_SECRET = "n2MjIKS0RIxdEDQAHRutXz6WDz2yBWBQ"

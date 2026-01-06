@@ -55,7 +55,7 @@ ul {
 }
 
 #avatar {
-    background-image: url("https://i.kym-cdn.com/entries/icons/original/000/001/130/Untitled.png");
+    background-image: url("../img/Suki.png");
     background-size: 100%;
     width: calc(var(--box-w-alt) / 1.25) !important;
     height: calc(var(--box-w-alt) / 1.25) !important;

@@ -10,7 +10,7 @@
 
 html {
     background-color: #282828;
-    background-image: url("https://gruvbox-wallpapers.pages.dev/wallpapers/minimalistic/Suki.png");
+    background-image: url("../img/Suki.png");
     background-attachment: fixed;
     background-size: 100%;
 }
@@ -55,7 +55,7 @@ ul {
 }
 
 #avatar {
-    background-image: url("../img/Suki.png");
+    background-image: url("../img/face.png");
     background-size: 100%;
     width: calc(var(--box-w-alt) / 1.25) !important;
     height: calc(var(--box-w-alt) / 1.25) !important;

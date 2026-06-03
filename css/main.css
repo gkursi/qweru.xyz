@@ -5,30 +5,39 @@
     --box-blur: calc(0.5 * var(--blur));
     --glow: #ebdbb2;
     --size: 12rem;
-    --font-size: 1;
+    --font-size: 1.5;
+    --bg-blur: 3px;
 }
 
 html {
-    background-color: #282828;
-    background-image: url("../img/Suki.png");
-    background-attachment: fixed;
-    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 101vh;
 }
 
 body {
-    backdrop-filter: blur(10px);
+    overflow-x: visible;
     width: 100%;
-    overflow-x: hidden;
     height: 100%;
+    min-height: 101vh;
     color: #ebdbb2;
     /*margin-left: 1vw;
     margin-top: 1vh;*/
     margin: 0;
     padding: 0;
-    overflow: scroll;
-    -ms-overflow-style: none;
     scrollbar-width: none;
-    flex-direction: row;
+    /*backdrop-filter: blur(var(--bg-blur));*/
+
+    background-color: #282828;
+    /*background-image: url("../img/Suki.png");*/
+    /*background-size: cover;*/
+    background-image: radial-gradient(
+        color-mix(in Oklch, var(--glow), #000 20%) 0.1px,
+        transparent 0.5px
+    );
+    background-position: -1vw -1vw;
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 
 body::-webkit-scrollbar {
@@ -38,7 +47,7 @@ body::-webkit-scrollbar {
 * {
     font-family: "Inconsolata", monospace;
     font-size: calc(20px * var(--font-size));
-    color: #ebdbb2;
+    color: var(--glow);
     /*border: 1px solid red;*/
 }
 
@@ -55,8 +64,13 @@ ul {
     padding-left: 5px;
 }
 
+h1 {
+    font-size: calc(24px * var(--font-size));
+    border-bottom: 1px solid currentColor;
+}
+
 #avatar {
-    background-image: url("../img/face.png");
+    background-image: url("../img/fallback.webp");
     background-size: 100%;
     width: calc(var(--box-w-alt) / 1.25) !important;
     height: calc(var(--box-w-alt) / 1.25) !important;
@@ -70,6 +84,42 @@ ul {
     padding: 2px;
 }
 
+#offset {
+    width: 100vw;
+    height: 40vh;
+    margin-bottom: 20px;
+}
+
+#offset.invisible {
+    height: 0;
+    transition: 0.5s all;
+}
+
+#secondary {
+    transition: 0.5s all;
+    opacity: 0;
+    /*background-color: #28282800;*/
+    scroll-behavior: smooth;
+    scroll-padding: 0;
+}
+
+#secondary.visible {
+    opacity: 1;
+    transition: 0.5s all;
+}
+
+#hint.invisible {
+    display: none;
+}
+
+#needs-inline-dst {
+    display: none;
+}
+
+.center-text {
+    text-align: center;
+}
+
 .box {
     width: var(--box-w);
 
@@ -80,7 +130,8 @@ ul {
     padding-top: 0px;
     padding-bottom: 0px;
 
-    --glow-color: var(--glow); /* Fallback */
+    --glow-color: var(--glow);
+    --glow-size: 7px;
 
     --color: var(--glow-color);
     --shadow-color: color-mix(
@@ -92,8 +143,12 @@ ul {
     background-color: color-mix(in Oklch, var(--color), transparent 95%);
     border: 3px solid var(--color);
 
-    box-shadow: 0px 0px 10px 2px var(--shadow-color);
-    border-radius: 1px;
+    transition: 0.4s all;
+    box-shadow: 0px 0px var(--glow-size) calc(var(--glow-size) / 6)
+        var(--shadow-color);
+    border-radius: 0px;
+    backdrop-filter: blur(10px);
+    z-index: 1;
 }
 
 .box-alt {
@@ -102,6 +157,12 @@ ul {
 
 .box:last-of-type {
     margin-bottom: 20px;
+}
+
+.box:hover {
+    transition: 0.1s all;
+    --glow-size: 20px;
+    z-index: -1;
 }
 
 .box-green {
@@ -195,6 +256,22 @@ ul {
 
 progress {
     accent-color: #d3869b;
+}
+
+@media only screen and (max-width: 3000px) {
+    :root {
+        --font-size: 1;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #needs-inline-src {
+        display: none;
+    }
+
+    #needs-inline-dst {
+        display: initial;
+    }
 }
 
 @media only screen and (max-width: 700px) {

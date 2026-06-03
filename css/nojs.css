@@ -1,0 +1,18 @@
+#avatar {
+    background-image: url("../img/fallback.webp");
+}
+
+#status::after {
+    content: " (no js)";
+}
+
+#secondary {
+    opacity: 0.3;
+}
+
+#secondary:hover {
+    z-index: 999;
+    /*backdrop-filter: blur(10px);*/
+    opacity: 1;
+    transition: 0.15s all;
+}

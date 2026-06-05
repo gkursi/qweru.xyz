@@ -131,7 +131,7 @@ h1 {
     padding-bottom: 0px;
 
     --glow-color: var(--glow);
-    --glow-size: calc(8px * var(--font-size));
+    --glow-size: calc(5.5px * var(--font-size));
 
     --color: #00000000;
     --shadow-color: color-mix(
@@ -140,13 +140,13 @@ h1 {
         #000 20%
     );
 
-    --offset: calc(7px * var(--font-size));
+    --offset: calc(5.5px * var(--font-size));
 
     background-color: color-mix(in Oklch, var(--color), transparent 95%);
     border: 3px solid var(--color);
 
     transition: 0.1s all;
-    box-shadow: var(--offset) var(--offset) var(--glow-size) 0
+    box-shadow: var(--offset) var(--offset) var(--glow-size) 0.8px
         var(--shadow-color);
     border-radius: 0px;
     /*backdrop-filter: blur(10px);*/
@@ -289,7 +289,7 @@ progress {
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
     :root {
         --font-size: 0.6;
     }

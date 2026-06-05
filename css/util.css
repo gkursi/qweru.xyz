@@ -9,3 +9,7 @@
 .nodec {
     text-decoration: none;
 }
+
+.pointer {
+    cursor: pointer;
+}

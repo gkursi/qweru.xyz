@@ -16,6 +16,11 @@ body {
     width: fit-content;
 }
 
+.container-compact {
+    padding: 0px;
+    gap: 5px;
+}
+
 .col {
     flex: 1;
 }

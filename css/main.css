@@ -28,17 +28,43 @@ body {
     padding: 0;
     scrollbar-width: none;
     /*backdrop-filter: blur(var(--bg-blur));*/
-
-    background-color: #282828;
     /*background-image: url("../img/Suki.png");*/
     /*background-size: cover;*/
+
+    background-color: #282828;
     background-image: radial-gradient(
         color-mix(in Oklch, var(--glow), #000 20%) 0.1px,
         transparent 0.5px
     );
-    background-position: -1vw -1vw;
+    background-position: -10px -10px;
     background-size: 20px 20px;
     background-attachment: fixed;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(135deg, #b16286, #458588, #689d6a);
+    pointer-events: none;
+    z-index: 0;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: radial-gradient(transparent 0.1px, #282828 0.5px);
+    background-position: -10px -10px;
+    background-size: 20px 20px;
+    background-attachment: fixed;
+    pointer-events: none;
+    z-index: 1;
+}
+
+body > * {
+    position: relative;
+    z-index: 2;
 }
 
 body::-webkit-scrollbar {

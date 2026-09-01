@@ -291,6 +291,11 @@ h1 {
     color: #00000000;
 }
 
+.force-88-31 {
+    max-width: 88px;
+    max-height: 31px;
+}
+
 progress {
     accent-color: #d3869b;
 }
